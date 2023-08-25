@@ -9,6 +9,9 @@ import Chart from "./Component/Chart/Chart";
 function App() {
   return (
     <div className="app">
+      <div className="app__title-container">
+        <h1 className="app__heading">Usage</h1>
+      </div>
       <div className="app__header-component">
         <Header />
       </div>

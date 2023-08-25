@@ -14,4 +14,17 @@
   &__impossible-graph {
     margin: 0.8rem;
   }
+
+  &__title-container {
+    display: flex;
+    justify-content: center;
+    background-color: $base-dark-siphon;
+    padding: 1.2rem;
+  }
+
+  &__heading {
+    color: $primary-intense-bubblegum;
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
 }
