@@ -1,0 +1,12 @@
+@use "./Styles/partials/mixins" as *;
+@use "./Styles/partials/variables" as *;
+
+.app {
+  &__header-component {
+    margin: 0.8rem;
+  }
+
+  &__main-display {
+    margin: 0.8rem;
+  }
+}
