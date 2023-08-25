@@ -2,7 +2,7 @@
 @use "../../Styles/partials/variables" as *;
 
 .header-section {
-  background-color: $base-main-hemocyanin;
+  background-color: $base-dark-siphon;
   border-radius: 4px;
   padding: 0.5rem;
 
@@ -29,7 +29,7 @@
 
     &_display-data {
       font-size: 4rem;
-      color: $primary-intense-bubblegum;
+      color: $text-main-ice;
       font-weight: bold;
     }
 
@@ -56,7 +56,7 @@
 
     &_display-data {
       font-size: 4rem;
-      color: $primary-intense-bubblegum;
+      color: $text-main-ice;
       font-weight: bold;
     }
 

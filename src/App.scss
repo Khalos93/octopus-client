@@ -2,11 +2,16 @@
 @use "./Styles/partials/variables" as *;
 
 .app {
+  background-color: $secondary-dark-blueberry;
   &__header-component {
     margin: 0.8rem;
   }
 
   &__main-display {
+    margin: 0.8rem;
+  }
+
+  &__impossible-graph {
     margin: 0.8rem;
   }
 }
