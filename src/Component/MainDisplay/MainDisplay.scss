@@ -1,0 +1,148 @@
+@use "../../Styles/partials/mixins" as *;
+@use "../../Styles/partials/variables" as *;
+
+.main-display {
+  background-color: $base-main-hemocyanin;
+  border-radius: 4px;
+  padding: 0.8rem;
+
+  &__heading-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0.8rem;
+  }
+
+  &__header-btn {
+    border-radius: 10px;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    background-color: $secondary-main-ink;
+    color: $text-main-ice;
+  }
+
+  &__color-container-text {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+  }
+
+  &__color-container-text-main {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+    padding-right: 3em;
+    padding-left: 0.8rem;
+  }
+
+  &__color-container-text-main2 {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+    padding-right: 3.6em;
+    padding-left: 0.8rem;
+  }
+
+  &__color-container1 {
+    background-color: $action-success-green;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $text-main-ice;
+  }
+
+  &__color-container2 {
+    background-color: $action-warning-orange;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__energy1 {
+    display: flex;
+    justify-content: center;
+  }
+  &__energy2 {
+    display: flex;
+    justify-content: center;
+  }
+  &__color-wrapper1 {
+    display: flex;
+  }
+
+  &__color-container-price-text {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+    padding-right: 1rem;
+  }
+
+  &__color-container-unit-text {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+  }
+
+  &__color-container-price-text2 {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+    padding-right: 1rem;
+  }
+
+  &__color-container-unit-text2 {
+    font-size: 1.6rem;
+    color: $text-main-ice;
+  }
+  &__headings_container {
+    display: flex;
+    color: $text-light-dustysky;
+  }
+
+  &__headingss-main {
+    padding-left: 3.8rem;
+    padding-right: 12.5rem;
+    font-size: 1rem;
+  }
+
+  &__headingss-cost {
+    padding-right: 1.8rem;
+    font-size: 1rem;
+  }
+
+  &__headingss-unit-price {
+    font-size: 1rem;
+  }
+
+  &__donut-image-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  &__donut-image {
+    width: 9rem;
+    height: 9rem;
+    background-image: url("../../Assets/icons/diagram.svg");
+    background-position: center;
+    background-size: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__donut-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__donut-text {
+    color: $text-light-dustysky;
+    display: flex;
+    justify-content: center;
+    color: $primary-intense-bubblegum;
+  }
+
+  &__donut-subheading {
+    color: $text-light-dustysky;
+    font-size: 0.8rem;
+  }
+}
