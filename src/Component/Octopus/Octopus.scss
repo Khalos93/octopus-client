@@ -17,4 +17,32 @@
     color: $text-main-ice;
     align-self: center;
   }
+
+  &__button-container {
+    background-color: $secondary-dark-blueberry;
+    width: 9rem;
+    height: 2.73rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    align-self: center;
+  }
+}
+
+.button {
+  border-radius: 13px;
+  border: none;
+  width: 3.5rem;
+  height: 2.5rem;
+  font-weight: 600;
+}
+
+.button--active {
+  color: $text-main-ice;
+  background-color: $secondary-main-ink;
+}
+
+.button--not-active {
+  color: rgba(240, 255, 255, 0.5);
+  background-color: $secondary-dark-blueberry;
 }
