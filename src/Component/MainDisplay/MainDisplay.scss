@@ -1,5 +1,5 @@
-@use "../../Styles/partials/mixins" as *;
-@use "../../Styles/partials/variables" as *;
+@use '../../Styles/partials/mixins' as *;
+@use '../../Styles/partials/variables' as *;
 
 .main-display {
   background-color: $base-dark-siphon;
@@ -121,7 +121,7 @@
   &__donut-image {
     width: 9rem;
     height: 9rem;
-    background-image: url("../../Assets/icons/diagram.svg");
+    background-image: url('../../Assets/icons/diagram.svg');
     background-position: center;
     background-size: 9rem;
     display: flex;
@@ -145,4 +145,14 @@
     color: $text-light-dustysky;
     font-size: 0.8rem;
   }
+}
+
+.main-display__header-btn--active {
+  color: $text-main-ice;
+  background-color: $secondary-main-ink;
+}
+
+.main-display__header-btn--not-active {
+  color: rgba(240, 255, 255, 0.5);
+  background-color: $secondary-dark-blueberry;
 }

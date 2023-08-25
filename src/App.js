@@ -1,19 +1,28 @@
-import "./App.scss";
-import FancyButton from "./Component/FancyButtons/FancyButton";
-import Header from "./Component/Header/Header";
-import MainDisplay from "./Component/MainDisplay/MainDisplay";
-import Nav from "./Component/Nav/Nav";
-import Octopus from "./Component/Octopus/Octopus";
-import Chart from "./Component/Chart/Chart";
+import './App.scss';
+import FancyButton from './Component/FancyButtons/FancyButton';
+import Header from './Component/Header/Header';
+import MainDisplay from './Component/MainDisplay/MainDisplay';
+import Nav from './Component/Nav/Nav';
+import Octopus from './Component/Octopus/Octopus';
+import Chart from './Component/Chart/Chart';
+import { useState } from 'react';
 
 function App() {
+  const [day, setDay] = useState(true);
+  const [yesterday, setYesterday] = useState(false);
+  const [month, setMonth] = useState(false);
+
   return (
     <div className="app">
       <div className="app__header-component">
-        <Header />
+        <Header day={day} yesterday={yesterday} month={month} />
       </div>
       <div className="app__main-display">
-        <MainDisplay />
+        <MainDisplay
+          setDay={setDay}
+          setYesterday={setYesterday}
+          setMonth={setMonth}
+        />
       </div>
       <div className="app__fancy-buttons">
         <FancyButton />
