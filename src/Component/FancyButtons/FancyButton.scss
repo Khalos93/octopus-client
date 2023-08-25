@@ -1,0 +1,10 @@
+@use '../../Styles/partials/mixins' as *;
+@use '../../Styles/partials/variables' as *;
+
+.button-continer {
+  background-color: $secondary-light-bluetang;
+
+  .button {
+    border-radius: 10px;
+  }
+}
