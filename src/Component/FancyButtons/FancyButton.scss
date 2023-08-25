@@ -1,10 +1,32 @@
 @use '../../Styles/partials/mixins' as *;
 @use '../../Styles/partials/variables' as *;
 
-.button-continer {
-  background-color: $secondary-light-bluetang;
+.wrapper-to-flex {
+  display: flex;
 
-  .button {
-    border-radius: 10px;
+  .button-container {
+    background-color: $secondary-dark-blueberry;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+
+    .button {
+      border-radius: 10px;
+      border: none;
+      width: 7rem;
+      height: 2rem;
+      font-weight: 600;
+    }
+
+    .button--active {
+      color: $text-main-ice;
+      background-color: $secondary-main-ink;
+    }
+
+    .button--not-active {
+      color: rgba(240, 255, 255, 0.5);
+      background-color: $secondary-dark-blueberry;
+    }
   }
 }
