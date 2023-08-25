@@ -2,7 +2,7 @@ import "./App.scss";
 import Header from "./Component/Header/Header";
 import MainDisplay from "./Component/MainDisplay/MainDisplay";
 import Nav from "./Component/Nav/Nav";
-
+import Octopus from "./Component/Octopus/Octopus";
 
 function App() {
   return (
@@ -15,7 +15,10 @@ function App() {
       </div>
       <div className="app__fancy-buttons"></div>
       <div className="app__impossible-graph"></div>
-      <div className="app__nav-bar" 
+      <div className="octopus">
+        <Octopus />
+      </div>
+      <div className="app__nav-bar">
         <Nav />
       </div>
     </>

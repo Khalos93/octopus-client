@@ -1,0 +1,20 @@
+@use "../../Styles/partials/variables" as *;
+@use "../../Styles/partials/mixins" as *;
+
+.octopus {
+  background-color: $base-main-hemocyanin;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &-wrapper {
+    width: 9rem;
+  }
+  &__img {
+    width: 9rem;
+  }
+  &__text {
+    font-size: 1.4rem;
+    color: $text-main-ice;
+    align-self: center;
+  }
+}
