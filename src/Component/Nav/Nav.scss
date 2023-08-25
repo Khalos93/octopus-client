@@ -12,7 +12,6 @@
 }
 
 .btn-home,
-.btn-usage,
 .btn-bills {
   display: flex;
   flex-direction: column;
@@ -28,6 +27,15 @@
   }
 }
 
+.btn-usage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background-color: $base-dark-siphon;
+  color: $text-dark-purplehaze;
+  font-size: 1.2rem;
+}
 .img-octopus {
   margin-top: 0.3rem;
   color: $text-dark-purplehaze;
@@ -42,31 +50,9 @@
   height: 2.5rem;
 }
 
-// .hover {
-//   display: none;
-
-//   &:hover {
-// width: 30px;
-// height: 5px;
-// background-color: $primary-intense-bubblegum;
-// border-radius: 5px;
-
-//     display: none;
-
-//     .btn-home:hover &,
-//     .btn-usage:hover &,
-//     .btn-bills:hover & {
-//       display: block;
-//     }
-
-//     width: 30px;
-//     height: 5px;
-//     background-color: $primary-intense-bubblegum;
-//     border-radius: 2.5px;
-//     position: absolute;
-//     top: 0;
-//     left: 50%;
-//     transform: translateX(-50%);
-//     transition: width 0.3s ease-in-out;
-//   }
-// }
+.hover {
+  width: 5rem;
+  height: 0.5rem;
+  background-color: $primary-intense-bubblegum;
+  border-radius: 5px;
+}
