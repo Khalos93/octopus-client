@@ -1,4 +1,5 @@
-import './App.scss';
+import "./App.scss";
+import Nav from "./Component/Nav/Nav";
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
       <div className="main-display"></div>
       <div className="fancy-buttons"></div>
       <div className="impossible-graph"></div>
-      <div className="nav-bar"></div>
+      <div className="nav-bar">
+        <Nav />
+      </div>
     </>
   );
 }
