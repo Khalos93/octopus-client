@@ -9,7 +9,6 @@ function Nav() {
       <div className="nav-bar">
         <div className="button__home">
           <button className="btn-home">
-            <span className="hover"></span>
             <img className="img-octopus" src={octopus} alt="octopus icon" />
             Home
           </button>
@@ -23,7 +22,6 @@ function Nav() {
         </div>
         <div className="button__bills">
           <button className="btn-bills">
-            <span className="hover"></span>
             <img className="img-wallet" src={wallet} alt="octopus icon" />
             Bills
           </button>
